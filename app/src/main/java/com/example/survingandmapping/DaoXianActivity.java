@@ -28,18 +28,19 @@ public class DaoXianActivity extends AppCompatActivity {
 //region
     private Button begin;
 	//endregion
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dao_xian);
-
+//region
         du=(EditText)findViewById(R.id.du);
         fen=(EditText)findViewById(R.id.fen);
         miao=(EditText)findViewById(R.id.miao);
         du2=(EditText)findViewById(R.id.du2);
         fen2=(EditText)findViewById(R.id.fen2);
         miao2=(EditText)findViewById(R.id.miao2);
-
+//endregion
         Ax=(EditText)findViewById(R.id.ax);
         Ay=(EditText)findViewById(R.id.ay);
         Bx=(EditText)findViewById(R.id.bx);
